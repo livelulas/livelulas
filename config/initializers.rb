@@ -58,6 +58,8 @@ Bridgetown.configure do |config|
   # end
   #
 
+  init :"bridgetown-svg-inliner"
+
   # For more documentation on how to configure your site using this initializers file,
   # visit: https://edge.bridgetownrb.com/docs/configuration/initializers/
 end

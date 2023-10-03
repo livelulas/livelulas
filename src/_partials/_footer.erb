@@ -1,3 +1,20 @@
 <footer>
-  Contact me at <a href="mailto:<%= metadata.email %>"><%= metadata.email %></a>
+  <ul>
+    <li>
+      <%= link_to "https://www.instagram.com/live.lulas", target: "_blank" do %>
+        <%= svg "/images/icons/instagram.svg", class: "" %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "https://www.facebook.com/livelula.fb", target: "_blank" do %>
+        <%= svg "/images/icons/facebook.svg", class: "" %>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to"https://api.whatsapp.com/send/?phone=18180867189&text&type=phone_number&app_absent=0", target: "_blank" do %>
+        <%= svg "/images/icons/whatsapp.svg", class: "" %>
+      <% end %>
+    </li>
+  </ul>
+  <a href="mailto:<%= metadata.email %>">Diseñado por Livelulas</a>
 </footer>

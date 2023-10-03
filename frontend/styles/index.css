@@ -1,6 +1,23 @@
+@import "navbar.css";
+@import "footer.css";
+@import "default.css";
+
 :root {
   --body-background: #f2f2f2;
   --body-color: #444;
   --heading-color: black;
   --action-color: #d64045;
+  --navbar-height: 10dvh;
+  --footer-height: 4dvh;
+  --section-height: 78dvh;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+.container {
+  height: var(--section-height);
+  overflow: scroll;
 }
