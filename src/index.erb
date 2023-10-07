@@ -18,3 +18,15 @@ title: site.data.title
     </div>
   </div>
 </div>
+
+<form name="contact" method="POST" action="/success" netlify data-controller="netlify-form" data-netlify-form-target="form">
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit" data-action="click->netlify-form#submit">Send</button>
+  </p>
+</form>
