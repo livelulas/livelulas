@@ -13,6 +13,11 @@
   padding-top: 2rem;
 }
 
+.navbar__logo:hover {
+  color: white;
+  background-color: lightpink;
+}
+
 .navbar__container {
   list-style: none;
   display: flex;
@@ -30,11 +35,6 @@
 }
 
 .navbar__item a:hover {
-  color: white;
-  background-color: lightpink;
-}
-
-.navbar__logo:hover {
   color: white;
   background-color: lightpink;
 }
